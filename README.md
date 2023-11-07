@@ -6,6 +6,7 @@ aura-openwrt-package
 | 软件名                       | 说明                   | 中文说明    |
 | -----------------------------|------------------------| ------------|
 | luci-app-tencentddns         | TencentDDNS            | 騰訊DDNS
+| luci-app-oaf                 | Apply filtering        | 应用过滤    |
 | luci-app-alist               |  file list program   | 支持多存储的文件列表程序   |
 | luci-app-dnsfilter           | dns ad filtering            | 基于DNS的广告过滤        |
 | luci-app-openclash           | openclash proxy            |  clash的图形代理软件      |
@@ -21,9 +22,6 @@ aura-openwrt-package
 | luci-theme-argone            | argone theme           | 修改老竭力主题名     |
 | luci-app-argone-config       | argone theme settings            |  argone主题设置      |
 | luci-app-ssr-plus            | ssr-plus proxy              | ssr-plus 代理软件       |
-| luci-theme-mcat              | Modify topic name          |   mcat主题        |
-| luci-theme-tomato            | Modify topic name             |  tomato主题        |
-| luci-theme-design            | neobird theme          | neobird主题        |
 | luci-app-mosdns              | mosdns dns offload            |DNS 国内外分流解析与广告过滤        |
 | luci-app-store               | store software repository            |  应用商店   |
 | luci-app-unblockneteasemusic | Unlock NetEase Cloud Music         | 解锁网易云音乐   |
