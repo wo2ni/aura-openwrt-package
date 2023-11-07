@@ -7,6 +7,7 @@ aura-openwrt-package
 | -----------------------------|------------------------| ------------|
 | luci-app-tencentddns         | TencentDDNS            | 騰訊DDNS
 | luci-app-oaf                 | Apply filtering        | 应用过滤    |
+| luci-app-wizard              | application wizard     | 应用程序向导|
 | luci-app-alist               |  file list program   | 支持多存储的文件列表程序   |
 | luci-app-dnsfilter           | dns ad filtering            | 基于DNS的广告过滤        |
 | luci-app-openclash           | openclash proxy            |  clash的图形代理软件      |
