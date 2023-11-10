@@ -13,6 +13,7 @@ aura-openwrt-package
 | luci-app-argon-config        | argon theme config     | argon主題配置|
 | luci-app-argone-config       | argone theme config    | argon 主題配置|
 | luci-app-sms-tool            | Simple user interface to handle SMS / USSD / AT commands via sms_tool application. OpenWrt =< 19.07 | 简单的用户界面，可通过 sms_tool 应用程序处理 SMS/USSD/AT 命令, OpenWrt =< 19.07|
+| luci-app-ramfree             | Ram release            | 內存釋放    |
 | luci-app-alist               |  file list program   | 支持多存储的文件列表程序   |
 | luci-app-dnsfilter           | dns ad filtering            | 基于DNS的广告过滤        |
 | luci-app-openclash           | openclash proxy            |  clash的图形代理软件      |
