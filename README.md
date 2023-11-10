@@ -11,6 +11,7 @@ aura-openwrt-package
 | luci-app-pcimodem            | PCI Modem Server       | 移动网络    |
 | luci-app-wolplus             | Wake on LAN Plus       | 網絡喚醒    |
 | luci-app-argon-config        | argon theme config     | argon主題配置|
+| luci-app-argone-config       | argone theme config    | argon 主題配置|
 | luci-app-alist               |  file list program   | 支持多存储的文件列表程序   |
 | luci-app-dnsfilter           | dns ad filtering            | 基于DNS的广告过滤        |
 | luci-app-openclash           | openclash proxy            |  clash的图形代理软件      |
