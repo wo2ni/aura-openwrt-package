@@ -17,6 +17,7 @@ aura-openwrt-package
 | luci-app-alist               |  file list program   | 支持多存储的文件列表程序   |
 | luci-app-dnsfilter           | dns ad filtering            | 基于DNS的广告过滤        |
 | luci-app-openclash           | openclash proxy            |  clash的图形代理软件      |
+| luci-app-passwall            | Proxy kexue                | passwall 魔法             |
 | luci-app-advanced            | System advanced settings               | 系统高级设置        |
 | luci-app-wechatpush          | WeChat/DingTalk Pushed plugins    |   微信/钉钉推送        |
 | luci-theme-atmaterial_new    | atmaterial theme (adapted to luci-18.06) | Atmaterial 三合一主题        |
