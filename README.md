@@ -16,6 +16,7 @@ aura-openwrt-package
 | luci-app-ramfree             | Ram release            | 內存釋放    |
 | luci-app-alist               |  file list program   | 支持多存储的文件列表程序   |
 | luci-app-dnsfilter           | dns ad filtering            | 基于DNS的广告过滤        |
+| luci-app-control-wol         |                         |  定时网络唤醒 |
 | luci-app-openclash           | openclash proxy            |  clash的图形代理软件      |
 | luci-app-passwall            | Proxy kexue                | passwall 魔法             |
 | luci-app-advanced            | System advanced settings               | 系统高级设置        |
