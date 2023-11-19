@@ -20,6 +20,7 @@ aura-openwrt-package
 | luci-app-openclash           | openclash proxy            |  clash的图形代理软件      |
 | luci-app-passwall            | Proxy kexue                | passwall 魔法             |
 | luci-app-advanced            | System advanced settings               | 系统高级设置        |
+| luci-app-lucky               | System config                | Lucky 系统配置 |
 | luci-app-wechatpush          | WeChat/DingTalk Pushed plugins    |   微信/钉钉推送        |
 | luci-theme-atmaterial_new    | atmaterial theme (adapted to luci-18.06) | Atmaterial 三合一主题        |
 | luci-app-aliddns             | aliyunddns         |   阿里云ddns插件      |
