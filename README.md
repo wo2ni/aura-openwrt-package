@@ -37,4 +37,4 @@ aura-openwrt-package
 | luci-app-unblockneteasemusic | Unlock NetEase Cloud Music         | 解锁网易云音乐   |
 | luci-app-aliyundrive-webdav  | Aliyun Disk WebDAV Service            |  阿里云盘 WebDAV 服务   |
 | luci-app-amlogic  | Amlogic Service             |  晶晨宝盒   |
-
+| luci-app-v2ray-server |  v2ray server          | v2ray服务|
