@@ -21,6 +21,7 @@ aura-openwrt-package
 | luci-app-passwall            | Proxy kexue                | passwall 魔法             |
 | luci-app-udp2raw             |  luci udp2raw              | 带有luci界面的udp2raw |
 | udp2raw-core                 |  udp2raw core              | udp2raw 核心 |
+| luci-app-timecontrol         | Wake up regularly          | 定时网络唤醒 |
 
 | luci-app-advanced            | System advanced settings               | 系统高级设置        |
 | luci-app-lucky               | System config                | Lucky 系统配置 |
