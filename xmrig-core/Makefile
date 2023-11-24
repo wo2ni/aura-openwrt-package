@@ -1,15 +1,20 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xmrig
-PKG_VERSION:=6.20.0
+PKG_VERSION:=v6.21.0
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+#PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_VERSION).tar.gz
 #PKG_SOURCE_URL:=file:///../../my_package/xmrig-core/
-PKG_SOURCE_URL:=http://192.168.222.111:8001/
-PKG_HASH:=c531b45238ace21cf4cbae44955cfd40
+#PKG_SOURCE_URL:=http://192.168.222.111:8001/
+#PKG_SOURCE_URL:=https://github.com/xmrig/xmrig/archive
+PKG_SOURCE_URL:=https://github.com/xmrig/xmrig/archive/refs/tags
+#PKG_HASH:=c531b45238ace21cf4cbae44955cfd40
+PKG_HASH:=4b197c71fa06030216b641b4ea57f7a3d977a17df1b55bd13759d4705dbf5941
+#PKG_HASH:=sha256
 
-PKG_MAINTAINER:=unknown
+PKG_MAINTAINER:=Your Name <your.email@example.com>
 PKG_LICENSE:=GPL-3.0-only
 PKG_LICENSE_FILES:=LICENSE
 
