@@ -23,7 +23,6 @@ aura-openwrt-package
 | udp2raw-core                 |  udp2raw core              | udp2raw 核心 |
 | luci-app-timecontrol         | Wake up regularly          | 定时网络唤醒 |
 | xmrig-core                   | Monero mining              | XMR | 
-
 | luci-app-advanced            | System advanced settings               | 系统高级设置        |
 | luci-app-lucky               | System config                | Lucky 系统配置 |
 | luci-app-wechatpush          | WeChat/DingTalk Pushed plugins    |   微信/钉钉推送        |
