@@ -38,6 +38,7 @@ aura-openwrt-package
 | luci-app-argone-config       | argone theme settings            |  argone主题设置      |
 | luci-app-ssr-plus            | ssr-plus proxy              | ssr-plus 代理软件       |
 | luci-app-mosdns              | mosdns dns offload            |DNS 国内外分流解析与广告过滤        |
+| luci-app-poweroff            | poweroff                       | 关机    |
 | luci-app-store               | store software repository            |  应用商店   |
 | luci-app-unblockneteasemusic | Unlock NetEase Cloud Music         | 解锁网易云音乐   |
 | luci-app-aliyundrive-webdav  | Aliyun Disk WebDAV Service            |  阿里云盘 WebDAV 服务   |
