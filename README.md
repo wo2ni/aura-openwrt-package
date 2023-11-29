@@ -43,3 +43,4 @@ aura-openwrt-package
 | luci-app-aliyundrive-webdav  | Aliyun Disk WebDAV Service            |  阿里云盘 WebDAV 服务   |
 | luci-app-amlogic  | Amlogic Service             |  晶晨宝盒   |
 | luci-app-v2ray-server |  v2ray server          | v2ray服务|
+| hellowrld                    | proxy for hellowrd           | helloword 代理工具 |
