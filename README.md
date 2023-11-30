@@ -4,9 +4,9 @@
 
 软件包均来自互联网.
 
-| 软件名                       | 说明                   | 中文说明    |
-| -----------------------------|------------------------| ------------|
-| luci-app-tencentddns         | TencentDDNS            | 騰訊DDNS
+| 软件名                       | 说明                                               |  中文说明    |
+| -----------------------------|------------------------| -----------------------------------------|
+| luci-app-tencentddns         | TencentDDNS                                            | 騰訊DDNS |
 | luci-app-oaf                 | Apply filtering        | 应用过滤    |
 | luci-app-wizard              | application wizard     | 应用程序向导|
 | luci-app-pcimodem            | PCI Modem Server       | 移动网络    |
