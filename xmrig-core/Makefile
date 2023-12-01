@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xmrig
-PKG_VERSION:=6.15.3
+PKG_VERSION:=6.21.0
 PKG_RELEASE:=1
 
 
@@ -16,10 +16,12 @@ PKG_LICENSE:=GPL-3.0
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_BUILD_PARALLEL:=1
-PKG_INSTALL:=1
+PKG_INSTALL:=0
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
+
+TARGET_LDFLAGS += -lgcc_s
 
 define Package/xmrig
 	SECTION:=net
@@ -43,7 +45,7 @@ endef
 
 define Package/xmrig/install
 	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/xmrig $(1)/usr/bin/
+	$(CP) $(PKG_BUILD_DIR)/xmrig-6.21.0/xmrig $(1)/usr/bin/xmrig
 endef
 
 $(eval $(call BuildPackage,xmrig))
