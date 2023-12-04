@@ -45,3 +45,4 @@
 | luci-app-amlogic  | Amlogic Service             |  晶晨宝盒   |
 | luci-app-v2ray-server |  v2ray server          | v2ray服务|
 | hellowrld                    | proxy for hellowrd           | helloword 代理工具 |
+| luci-app-runshell            | run shell command            | 执行shell命令 |
