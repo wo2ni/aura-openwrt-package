@@ -48,3 +48,4 @@
 | luci-app-runshell            | run shell command            | 执行shell命令 |
 | luci-app-alist               | alist                        | alist 网盘管理器 |
 | luci-theme-atmaterial_new    | atmaterial_new  theme        | atmaterial_new 主题 |  
+| luci-theme-atmaterial        | atmaterial theme             | atmaterial 主题   |
