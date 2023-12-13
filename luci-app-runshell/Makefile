@@ -1,7 +1,6 @@
 # Copyright (C) 2016 Openwrt.org
 #
 # This is free software, licensed under the Apache License, Version 2.0 .
-# Maintained by eSir Playground <https://github.com/esirplayground/luci-app-runshell>
 
 include $(TOPDIR)/rules.mk
 
