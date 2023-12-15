@@ -49,3 +49,4 @@
 | luci-app-alist               | alist                        | alist 网盘管理器 |
 | luci-theme-atmaterial_new    | atmaterial_new  theme        | atmaterial_new 主题 |  
 | luci-theme-atmaterial        | atmaterial theme             | atmaterial 主题   |
+| luci-app-wizard              | luci-app-wizard               |应用初始化|
