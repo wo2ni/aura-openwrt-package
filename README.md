@@ -172,3 +172,4 @@
 | luci-app-oaf                | 应用过滤                |
 | luci-app-pcimodem           | 移动网络                |
 | luci-app-spdmodem           | 提供Serial Port Dialer调制解调器的Web界面配置和管理 |
+| luci-app-sms-tool           | 4G网卡收发短信          |
