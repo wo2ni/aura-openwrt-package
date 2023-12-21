@@ -174,3 +174,5 @@
 | luci-app-spdmodem           | 提供Serial Port Dialer调制解调器的Web界面配置和管理 |
 | luci-app-sms-tool           | 4G网卡收发短信          |
 | luci-app-passwall           | Passwall 代理工具       |
+| luci-app-partexp            | 一键自动格式化分区,扩容,自动挂载 |
+
