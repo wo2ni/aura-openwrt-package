@@ -1,0 +1,81 @@
+<%#
+ Maintained by eSirPlayground <https://www.youtube.com/c/esirplayground>
+ Licensed to the public under the Apache License 2.0.
+-%>
+
+<%+header%>
+
+<h2 name="content"><%:Runshell%></h2>
+<br />
+
+<p><%:Run Shell Command%></p>
+
+<hr />
+
+<script type="text/javascript">//<![CDATA[
+	var tries = 0;
+
+    <!--将用户重定向到特定的管理页面,命令执行成功后的页面,或者是需要用户注意的特定部分的页面.-->
+	function ok() {
+		window.location = '<%=controller%>/admin/system/runshell';
+	}
+
+    <!--check函数的作用是在一个限定的次数(此处为12次)内周期性地调用ping函数,如果在这些尝试之后仍然无法达到预期的结果(可能是与设备的连接或某种状态检查),它会向用户显示一个警告消息,这种模式通常用于网络请求或设备状态检查,其中需要在一定时间内多次尝试,如果失败则通知用户.-->
+	function check() {
+		if (tries++ < 12)
+			window.setTimeout(ping, 5000);
+		else
+			alert('<%:Device unreachable%>');
+	}
+
+        <!--ping 函数试图通过加载一个图片来检测设备是否可达.如果图片加载成功(意味着设备和网络连接正常),则调用ok函数,如果加载失败(可能是由于设备不可达或其他网络问题),则调用check 函数.同时,它更新页面上的消息,告知用户正在等待设备响应.这种方法常用于网页应用中,以检查网络状态或设备的可达性.-->
+    
+	function ping() {
+		var img = document.createElement('img');
+		img.onload = ok;
+		img.onerror = check;
+		img.src = '<%=resource%>/icons/love.gif?' + Math.random();
+		document.getElementById('runshell-message').innerHTML //= '<%:Waiting for device...%>';
+	}
+
+        /*<!--runshell函数的作用是在用户触发一个操作(如点击一个按钮)时,隐藏按钮,显示状态消息,并通过发送一个POST请求到服务器来执行某个后端操作.这是Web应用中常见的模式,用于处理用户的输入操作并与服务器进行异步交互.-->*/
+	function runshell(button) {
+		//button.style.display = 'none';
+		document.getElementById('runshell-message').parentNode.style.display = '';
+
+        var buttons = document.querySelectorAll('.cbi-button');
+        // 遍历按钮并隐藏它们
+        buttons.forEach(function(button) {
+            button.style.display = 'none';
+        });
+
+		(new XHR()).post('<%=controller%>/admin/system/runshell/call', { token: '<%=token%>' }, check);
+	}
+
+	function runshell2(button) {
+		//button.style.display = 'none';
+		document.getElementById('runshell-message').parentNode.style.display = '';
+
+        var buttons = document.querySelectorAll('.cbi-button');
+        // 遍历按钮并隐藏它们
+        buttons.forEach(function(button) {
+            button.style.display = 'none';
+        });
+
+		(new XHR()).post('<%=controller%>/admin/system/runshell/call2', { token: '<%=token%>' }, check);
+	}
+//]]></script>
+
+<!--这个按钮在用户界面上显示为标签为"Perform Runshell"的按钮,当用户点击这个按钮时,将会执行名为 runshell 的JavaScript函数,并将按钮自身作为参数传递给这个函数,这种模式在Web应用中很常见,用于处理用户的交互操作并执行相应的脚本.-->
+<input class="cbi-button cbi-button-apply" type="button" value="<%:Perform Runshell%>" onclick="runshell(this)" />
+
+<input class="cbi-button cbi-button-apply" type="button" value="<%:Perform Runshell%>" onclick="runshell2(this)" />
+
+<!--这段代码似乎用于在某些操作(如在网页界面上的某个事件或过程中)发生时显示状态消息和图像,由于初始时设置为display:none,这个段落在页面初始加载时是不可见的,但可能在特定条件下(如通过JavaScript代码)被设置为可见,以向用户显示状态信息,例如"Router is shutting down..."(路由器正在关闭...).-->
+
+<p class="alert-message" style="display:none">
+	<img src="<%=resource%>/icons/love.gif" alt="<%:Loading%>" style="vertical-align:middle" />
+	<span id="runshell-message"><%:command is runing...%></span>
+</p>
+
+<%+footer%>
